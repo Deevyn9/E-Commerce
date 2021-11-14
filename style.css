@@ -155,14 +155,20 @@ header {
 
 .cart-card {
     display: none;
+    flex-direction: column;
     position: absolute;
     z-index: 600;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 13px 18px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     top: 10vh;
-    right: 0;
-    max-width: 350px;    
+    right: 2vh;
+    min-width: 300px;
+    min-height: 200px;    
+}
+
+.cart-card.toggle {
+    display: flex;
 }
 
 .line {
@@ -180,8 +186,13 @@ header {
 .main-card {
     display: flex;
     padding: 20px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+.empty {
+    padding-top: 10%;
+    color:hsl(219, 9%, 45%);
 }
 
 .added-product {
