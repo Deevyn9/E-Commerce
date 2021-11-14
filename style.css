@@ -167,6 +167,12 @@ header {
     min-height: 200px;    
 }
 
+.prod {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .cart-card.toggle {
     display: flex;
 }
@@ -195,9 +201,12 @@ header {
     color:hsl(219, 9%, 45%);
 }
 
+.empty.disappear {
+    display: none;
+}
+
 .added-product {
     color: hsl(219, 9%, 45%);
-
 }
 
 .delete {
@@ -221,9 +230,13 @@ header {
 
 .checkout {
     padding: 0px 20px 20px 20px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
+}
+
+.checkout.appear {
+    display: flex;
 }
 
 .checkout a {
