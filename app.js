@@ -34,7 +34,7 @@ cartBtn.addEventListener('click', () => {
 });
 
 addToCart.addEventListener('click', () => {
-   if(count > 1) {
+   if(count > 0) {
       cardProduct.innerHTML = `
       <img src="/images/image-product-1-thumbnail.jpg" alt="cart item thumbnail" class="cart-thumb">
       <div class="added-product">
@@ -47,7 +47,7 @@ addToCart.addEventListener('click', () => {
       emptyCart.classList.toggle('disappear');
       checkoutBtn.classList.toggle('appear');
    } else {
-      alert("Choose a number");
+      alert("can't add numbers less than one");
    }
 });
 
