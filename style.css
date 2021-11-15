@@ -125,17 +125,17 @@ header {
 
 .cart-number {
     position: absolute;
-    right: -7px;
+    right: -5px;
     top: -5px;
     color: white;
-    height: 15px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
     display: none;
     justify-content: center;
     align-items: center;
     background-color: hsl(26, 100%, 55%);
-    border-radius: 40%;
-    font-size: .8rem;
+    border-radius: 50%;
+    font-size: .7rem;
 }
 
 .cart-number.display {
