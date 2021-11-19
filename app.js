@@ -63,4 +63,3 @@ function letsDelete() {
       cartNumber.style.display = "none";
       cardProduct.style.display = "none";
    }
-// const deleteBtn = document.getElementsByClassName("delete")[0];
